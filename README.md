@@ -3,7 +3,7 @@
 How to prepare a Fedora 30 Server (or Workstation) for this:
 
     sudo dnf install podman-docker
-    
+
     sudo firewall-cmd --permanent --add-port=25565/tcp
     sudo firewall-cmd --reload
 
@@ -19,3 +19,4 @@ How to run this container:
 
 * Persistent World
 * Auto Start on Boot
+
